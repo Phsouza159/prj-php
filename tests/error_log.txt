@@ -1,0 +1,1 @@
+[10-Jan-2019 03:53:02 Europe/Paris] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\TestCase.php on line 7

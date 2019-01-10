@@ -1,0 +1,2 @@
+[09-Jan-2019 13:42:40 Europe/Paris] PHP Warning:  require(D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\public/../vendor/autoload.php): failed to open stream: No such file or directory in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\public\index.php on line 24
+[09-Jan-2019 13:42:40 Europe/Paris] PHP Fatal error:  require(): Failed opening required 'D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\public/../vendor/autoload.php' (include_path='.;C:\php\pear') in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\public\index.php on line 24
