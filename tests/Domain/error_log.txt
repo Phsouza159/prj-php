@@ -47,3 +47,196 @@ Stack trace:
 #3 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
 #4 {main}
   thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 120
+[11-Jan-2019 00:17:34 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function Notification\array_key() in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:84
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(29): Notification\OBNotification->GetVar(Object(App\SGFP\Domain\Entidades\Cliente))
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#2 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 84
+[11-Jan-2019 00:30:24 Europe/Paris] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 93
+[11-Jan-2019 00:30:24 Europe/Paris] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 93
+[11-Jan-2019 00:51:53 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 104
+[11-Jan-2019 00:51:53 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 104
+[11-Jan-2019 00:52:17 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 104
+[11-Jan-2019 00:52:17 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 104
+[11-Jan-2019 00:52:30 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 00:52:30 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 00:53:57 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 00:53:57 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 00:53:58 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 00:53:58 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 00:55:50 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 00:55:50 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 00:57:40 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 00:57:40 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:00:14 Europe/Paris] PHP Notice:  Undefined property: stdClass::$cpf in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:00:16 Europe/Paris] PHP Notice:  Undefined property: stdClass::$cpf in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:00:25 Europe/Paris] PHP Notice:  Undefined variable: cpf in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:00:25 Europe/Paris] PHP Notice:  Undefined property: stdClass::$ in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:00:32 Europe/Paris] PHP Notice:  Undefined property: stdClass::$cpf in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:00:38 Europe/Paris] PHP Notice:  Undefined property: stdClass::$a in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:00:39 Europe/Paris] PHP Notice:  Undefined property: stdClass::$a in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:00:43 Europe/Paris] PHP Notice:  Undefined property: stdClass::$sclar in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:01:01 Europe/Paris] PHP Notice:  Undefined property: stdClass::$scalar in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:01:02 Europe/Paris] PHP Notice:  Undefined property: stdClass::$scalar in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:01:11 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:01:11 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:12:19 Europe/Paris] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 86
+[11-Jan-2019 01:12:28 Europe/Paris] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'GetVar' not found or invalid function name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 86
+[11-Jan-2019 01:12:28 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 109
+[11-Jan-2019 01:12:28 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 109
+[11-Jan-2019 01:13:13 Europe/Paris] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'GetVar' not found or invalid function name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 86
+[11-Jan-2019 01:13:13 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 109
+[11-Jan-2019 01:13:13 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 109
+[11-Jan-2019 01:13:13 Europe/Paris] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'GetVar' not found or invalid function name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 86
+[11-Jan-2019 01:13:14 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 109
+[11-Jan-2019 01:13:14 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 109
+[11-Jan-2019 01:13:39 Europe/Paris] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'GetVar' not found or invalid function name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:13:39 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:13:39 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:14:05 Europe/Paris] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'as' not found or invalid function name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:14:05 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:14:05 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:14:06 Europe/Paris] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'as' not found or invalid function name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:14:06 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:14:06 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:14:47 Europe/Paris] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'ob' not found or invalid function name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:14:47 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:14:47 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:14:48 Europe/Paris] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'ob' not found or invalid function name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:14:48 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:14:48 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:15:05 Europe/Paris] PHP Warning:  array_map() expects parameter 1 to be a valid callback, function 'GetVar' not found or invalid function name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 106
+[11-Jan-2019 01:15:05 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:15:05 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 111
+[11-Jan-2019 01:16:42 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 110
+[11-Jan-2019 01:16:43 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 110
+[11-Jan-2019 01:16:52 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 110
+[11-Jan-2019 01:16:52 Europe/Paris] PHP Notice:  Illegal member variable name in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 110
+[11-Jan-2019 01:24:29 Europe/Paris] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 131
+[11-Jan-2019 01:24:34 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 132
+[11-Jan-2019 01:24:52 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 132
+[11-Jan-2019 01:24:53 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 132
+[11-Jan-2019 01:25:08 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 01:55:07 Europe/Paris] PHP Warning:  array_keys() expects parameter 1 to be array, string given in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 129
+[11-Jan-2019 01:55:59 Europe/Paris] PHP Warning:  array_keys() expects parameter 1 to be array, string given in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 129
+[11-Jan-2019 01:56:01 Europe/Paris] PHP Warning:  array_keys() expects parameter 1 to be array, string given in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 129
+[11-Jan-2019 01:56:05 Europe/Paris] PHP Warning:  array_keys() expects parameter 1 to be array, string given in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 129
+[11-Jan-2019 02:08:47 Europe/Paris] PHP Warning:  A non-numeric value encountered in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 02:08:47 Europe/Paris] PHP Warning:  A non-numeric value encountered in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 02:08:47 Europe/Paris] PHP Warning:  A non-numeric value encountered in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 02:08:47 Europe/Paris] PHP Warning:  A non-numeric value encountered in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 02:08:47 Europe/Paris] PHP Warning:  A non-numeric value encountered in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 02:09:20 Europe/Paris] PHP Warning:  A non-numeric value encountered in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 02:09:20 Europe/Paris] PHP Warning:  A non-numeric value encountered in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 02:09:20 Europe/Paris] PHP Warning:  A non-numeric value encountered in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 02:09:20 Europe/Paris] PHP Warning:  A non-numeric value encountered in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 135
+[11-Jan-2019 02:32:45 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Notification\OBNotification::IsCpf() must be of the type string, null given, called in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php on line 31 and defined in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:298
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(31): Notification\OBNotification->IsCpf(NULL)
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#2 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 298
+[11-Jan-2019 02:32:54 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Notification\OBNotification::IsCpf() must be of the type string, null given, called in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php on line 31 and defined in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:298
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(31): Notification\OBNotification->IsCpf(NULL)
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#2 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 298
+[11-Jan-2019 02:32:55 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Notification\OBNotification::IsCpf() must be of the type string, null given, called in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php on line 31 and defined in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:298
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(31): Notification\OBNotification->IsCpf(NULL)
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#2 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 298
+[11-Jan-2019 02:33:47 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Notification\OBNotification::IsCpf() must be of the type string, null given, called in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php on line 31 and defined in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:298
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(31): Notification\OBNotification->IsCpf(NULL)
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#2 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 298
+[11-Jan-2019 02:34:55 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function Notification\strim() in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:107
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(351): Notification\OBNotification->SetNotification('\x00\x00cpf ', 'CPF inv\xC3\xA1lido')
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(335): Notification\OBNotification->SetErroCPF('064.111.661-65')
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(31): Notification\OBNotification->IsCpf('064.111.661-65')
+#3 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#4 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 107
+[11-Jan-2019 02:40:36 Europe/Paris] PHP Warning:  Cannot assign an empty string to a string offset in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 140
+[11-Jan-2019 02:40:48 Europe/Paris] PHP Warning:  Cannot assign an empty string to a string offset in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 140
+[11-Jan-2019 05:10:36 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method Notification\bin\NFCationConfig::GetFileIdioma() in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\NFCationIdioma.php:22
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\NFCation.php(33): Notification\bin\NFCationIdioma::GetIdioma()
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(44): Notification\NFCation->Init()
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#3 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\NFCationIdioma.php on line 22
+[11-Jan-2019 05:10:47 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Notification\bin\NFCationIdioma::GetFileIdioma(), 0 passed in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\NFCationIdioma.php on line 22 and exactly 1 expected in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\NFCationIdioma.php:25
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\NFCationIdioma.php(22): Notification\bin\NFCationIdioma::GetFileIdioma()
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\NFCation.php(33): Notification\bin\NFCationIdioma::GetIdioma()
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(44): Notification\NFCation->Init()
+#3 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#4 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\NFCationIdioma.php on line 25
+[11-Jan-2019 05:11:17 Europe/Paris] PHP Warning:  fopen() expects at least 2 parameters, 1 given in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\NFCationIdioma.php on line 27
+[11-Jan-2019 05:12:31 Europe/Paris] PHP Warning:  fopen(pt-BR.json): failed to open stream: No such file or directory in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\NFCationIdioma.php on line 28
+[11-Jan-2019 05:29:44 Europe/Paris] PHP Warning:  file_get_contents(D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin/Idioma/eua.json): failed to open stream: No such file or directory in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\NFCationIdioma.php on line 27
+[11-Jan-2019 05:35:20 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Notification\bin\OBNotification::SetErroCPF(), 1 passed in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 392 and exactly 2 expected in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:404
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(392): Notification\bin\OBNotification->SetErroCPF('064.111.661-65')
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(45): Notification\bin\OBNotification->IsCpf('064.111.661-65')
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#3 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 404
+[11-Jan-2019 05:35:32 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Notification\bin\OBNotification::SetErroCPF(), 1 passed in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 392 and exactly 2 expected in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:404
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(392): Notification\bin\OBNotification->SetErroCPF('064.111.661-65')
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(45): Notification\bin\OBNotification->IsCpf('064.111.661-65')
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#3 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 404
+[11-Jan-2019 05:35:33 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Notification\bin\OBNotification::SetErroCPF(), 1 passed in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 392 and exactly 2 expected in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:404
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(392): Notification\bin\OBNotification->SetErroCPF('064.111.661-65')
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(45): Notification\bin\OBNotification->IsCpf('064.111.661-65')
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#3 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 404
+[11-Jan-2019 05:35:38 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Notification\bin\OBNotification::SetErroCPF(), 1 passed in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 392 and exactly 2 expected in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:404
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(392): Notification\bin\OBNotification->SetErroCPF('064.111.661-65')
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(45): Notification\bin\OBNotification->IsCpf('064.111.661-65')
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#3 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 404
+[11-Jan-2019 05:35:38 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Notification\bin\OBNotification::SetErroCPF(), 1 passed in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 392 and exactly 2 expected in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:404
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(392): Notification\bin\OBNotification->SetErroCPF('064.111.661-65')
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(45): Notification\bin\OBNotification->IsCpf('064.111.661-65')
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#3 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 404
+[11-Jan-2019 05:35:57 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Notification\bin\OBNotification::SetErroCPF(), 1 passed in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 392 and exactly 2 expected in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:404
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(392): Notification\bin\OBNotification->SetErroCPF('064.111.661-65')
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(45): Notification\bin\OBNotification->IsCpf('064.111.661-65')
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#3 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 404
+[11-Jan-2019 05:35:58 Europe/Paris] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Notification\bin\OBNotification::SetErroCPF(), 1 passed in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 392 and exactly 2 expected in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:404
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(392): Notification\bin\OBNotification->SetErroCPF('064.111.661-65')
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(45): Notification\bin\OBNotification->IsCpf('064.111.661-65')
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#3 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 404
+[11-Jan-2019 05:36:03 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Notification\bin\OBNotification::SetNotification() must be of the type string, null given, called in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 408 and defined in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php:114
+Stack trace:
+#0 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(408): Notification\bin\OBNotification->SetNotification('\x00\x00a|\x00\x00cpf ', NULL)
+#1 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php(392): Notification\bin\OBNotification->SetErroCPF('064.111.661-65')
+#2 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\SGFP\Domain\Entidades\Cliente.php(45): Notification\bin\OBNotification->IsCpf('064.111.661-65')
+#3 D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\tests\Domain\Teste.php(15): App\SGFP\Domain\Entidades\Cliente->__construct('064.111.661-65')
+#4 {main}
+  thrown in D:\EasyPHP-Devserver-17\eds-www\SGFP_PHP\app\Libs\NFCation\bin\OBNotification.php on line 114

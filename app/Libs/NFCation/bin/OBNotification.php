@@ -1,6 +1,6 @@
 <?php
 
-namespace Notification;
+namespace Notification\bin;
 
 require_once __DIR__ . '/../Interfaces/IOBNotification.php';
 
@@ -12,7 +12,8 @@ use Notification\Interfaces as Interfaces;
  */
 class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotification
 {
-
+    private $_NAMECLASS = '';
+    private $_IDIOMA = "";
     private $_NOTIFICATIONS = array();
     private $_ISVALID = true;
     private $_ISINVALID = false;
@@ -22,6 +23,14 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
     public function __construct(){
 
     }
+
+    public function Start($object){
+       $this->_IDIOMA = NFCationIdioma::GetIdioma();
+       $this->GetVar($object);
+       return $this;
+    }
+
+
     /**
      * ////// FUNCAO publicas //////
      */
@@ -77,12 +86,23 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
     /**
      * @return $this
      */
-    protected function GetVar( $var ){
+    private function GetVar( $object ){
 
-        foreach ($var as $item)
+        $this->_NAMECLASS = get_class($object);
+
+        $obArray = (array)$object;
+
+        foreach ( $obArray as $index => $value)
         {
-            if(!array_key_exists( $item , $this->_LISTVARS))
-                $this->_VARS[$item] = $item;
+            if(!strpos($index , "Notification"))
+            {
+                if(strpos($index , $this->_NAMECLASS ) )
+                {
+                    $this->_VARS[ str_replace( $this->_NAMECLASS , "", $index ) ] = $value;
+                }
+                else if( !strpos( $value , "Notification\OBNotification") )
+                    $this->_VARS[ $index ] = $value;
+            }
         }
         return $this;
     }
@@ -93,7 +113,7 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
      */
     private final function SetNotification(string $varName , string  $mes) : void
     {
-        $this->_NOTIFICATIONS[$varName] = $mes;
+        $this->_NOTIFICATIONS[] = "[" . trim($varName) . "] "  . $mes;
     }
 
     /**
@@ -115,20 +135,20 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
      */
     private function GetNomeVar(&$var) : string
     {
-        $default = $var;
-        $var = random_int(1 ,100000000);
+          if(is_object($var))
+             return get_class($var);
 
-        foreach ($this as $key => $value)
-        {
-            if($value == $var && array_key_exists( $key , $this->_VARS) )
-            {
-                $var = $default;
+          $index = "";
 
-                return $this->_VARS[$key];
-            }
-        }
-        $var = $default;
-        return "Default :: $var";
+          foreach ($this->_VARS as $i => $val)
+          {
+              if($val == $var)
+              {
+                  $index .= $i . "|";
+              }
+          }
+          $index[strlen($index)-1] = ' ';
+          return $index;
     }
 
     /**
@@ -189,7 +209,7 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
      * @return $this
      * @throws \Exception
      */
-    protected function IsObjectEmpty( &$object )
+    protected function IsObjectElementsEmpty( &$object , array $igNore = null)
     {
         if(!is_object($object))
         {
@@ -199,11 +219,55 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
 
         if (empty((array) $object))
         {
-            $this->SetErroObject($object, "Objeto não pode ser nulo");
+            $this->SetErroObject($object, "Objeto não pode conter elementos nulos");
         }
+
+        $array = (array) $object;
+
+        if($igNore != null)
+        {
+
+        }
+
+        foreach ( $array as $a )
+        {
+            if(is_null($a))
+                $this->SetErroObject($object, "Objeto não pode conter elementos nulos");
+        }
+
         return $this;
     }
 
+    /**
+     * @param $object
+     * @return $this
+     * @throws \Exception
+     */
+    protected function IsObjectEmpty( &$object )
+    {
+        if(!is_object($object))
+        {
+            $this->SetErroObject($object, "Não é um objeto ou está nulo");
+            return $this;
+        }
+
+        if (empty((array) $object))
+        {
+            $this->SetErroObject($object, "Objeto não pode ser nulos");
+        }
+
+        $array = (array) $object;
+
+        foreach ( $array as $a )
+        {
+            if(is_null($a))
+                $this->SetErroObject($object, "Objeto não pode conter elementos nulos");
+        }
+
+        print_r( array_values( $array ));
+
+        return $this;
+    }
     /**
      * @param $object
      * @param string $mes
@@ -289,7 +353,6 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
      * @throws \Exception
      */
     protected function IsCpf(string  &$default){
-
          $cpf = $default;
 
         if(empty($cpf))
@@ -315,7 +378,7 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
         for($i = 0, $x = 11; $i <= 9; $i++, $x--){
 
             if(str_repeat($i, 11) == $cpf){
-                $this->SetErroCPF($default);
+                $this->SetErroCPF($default , $this->_IDIOMA->isCpf->invalid);
                 return $this;
             }
             $digitoDois += $cpf[$i] * $x;
@@ -325,7 +388,7 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
         $calculoDois = (($digitoDois%11) < 2) ? 0 : 11-($digitoDois%11);
 
         if($calculoUm <> $cpf[9] || $calculoDois <> $cpf[10]){
-            $this->SetErroCPF($default);
+            $this->SetErroCPF($default , $this->_IDIOMA->isCpf->invalid);
             return $this;
         }
 
@@ -337,7 +400,7 @@ class OBNotification  /* extends CLASS */  implements  Interfaces\IOBNotificatio
      * @param string $mes
      * @throws \Exception
      */
-    protected final function SetErroCPF(string &$cpf, string $mes = "CPF inválido")
+    protected final function SetErroCPF(string &$cpf,  $mes)
     {
         $this->SetIsValid(false);
         $vName = $this->GetNomeVar($cpf);

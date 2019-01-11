@@ -14,19 +14,17 @@
 namespace Notification;
 
 require_once __DIR__ . '/bin/OBNotification.php';
+require_once __DIR__ . '/bin/NFCationConfig.php';
+require_once __DIR__ . '/bin/NFCationIdioma.php';
+use Notification\bin as bin;
 
-
-class NFCation extends OBNotification
+class NFCation extends bin\OBNotification
 {
     /**
      * NFCation constructor.
      */
     public function __construct(){
-       parent::__construct();
+
 
     }
-    /**
-     * ADICIONAR NOTIFICACAO
-     *
-     */
 }

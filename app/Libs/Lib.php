@@ -9,3 +9,5 @@
 
 require_once __DIR__ . "/NFCation/NFCation.php";
 
+
+ Notification\bin\NFCationConfig::SetIdioma("pt-BR");

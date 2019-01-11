@@ -12,9 +12,24 @@ require_once __DIR__ . "/../../../Libs/Lib.php";
 
 Use Notification;
 
+
+class b {
+
+    private $a;
+    private $b;
+    public function __construct()
+    {
+        $this->a = 1;
+    }
+
+}
+
+
 class Cliente  extends Notification\NFCation
 {
-    public $cpf ;
+    private $a = "a";
+    private $cpf ;
+    private $b ;
 
     /**
      * Cliente constructor.
@@ -24,9 +39,11 @@ class Cliente  extends Notification\NFCation
     public function __construct($cpf)
     {
         $this->cpf = $cpf;
-
-        $this->GetVar( array_keys(get_object_vars($this))  )
-            ->IsCpf($this->cpf);
+        $this->a = $cpf;
+        $this->b = new b();
+        $this->Start($this)
+            ->IsCpf($this->cpf)
+            ->IsObjectElementsEmpty( $this->b);
     }
 
 }
